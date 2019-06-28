@@ -1,11 +1,10 @@
 # C
 
-
-
 # HTML
 
 Primeiro Ano - <b> Cleytão </b> <br>
-Segundo Ano - <b> Piscão </b> 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+Segundo Ano - <b> Piscão </b> 
+
 # Java
 
 Primeiro Ano - <b> Flavia </b> <br> 
