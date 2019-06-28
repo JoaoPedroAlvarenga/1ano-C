@@ -1,0 +1,7 @@
+
+create table cliente(
+matricula int primary key auto_increment;
+nome varchar(100);
+email varchar(100);
+
+)

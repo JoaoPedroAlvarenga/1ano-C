@@ -1,0 +1,5 @@
+create table cliente(
+matricula int primary key auto_increment;
+
+
+)
