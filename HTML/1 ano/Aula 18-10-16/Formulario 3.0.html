@@ -1,0 +1,82 @@
+<!doctype>
+<html lang="pt-br">
+<meta charset ="utf-8">
+
+	<head>
+		<title>Google Alpha 1.39.1 </title>
+
+		<script type="text/javascript">
+			
+			function checaCep(){
+				if(document.formulario.cep.value.length != 8){
+					alert('Digite o CEP corretamente');
+				}
+			}
+
+			function Texto(){
+				if(document.formulario.value == " ")
+					alert("Preencha este campo corretamente");
+				}
+			}
+
+			function mensagem(){
+				alert('Cadastrado com Glória meu consagrado / Benevolente / Compadre / Jovem Guerreiro / Parça / chegado / Chu Chu Beleza / Bacana / A DEUX ');
+			}
+
+			function entrada(){
+				alert("Oi meu chapa,Turu bom?");
+			}
+
+		</script>
+	</head>
+	
+	<body>
+<!-- ===formulario================================================================= -->
+
+		<form name="formulario" method="post" action="aprovado.html">
+
+
+		<h1>Cadastro do cliente </h1>
+<!-- ===Texto====================================================================== -->
+		
+		<label>Nome:</label>
+			<input type="text" name="nome" id="nome" required 
+			size="50" maxlength="100" placeholder = "Seu nome Completo" >
+
+		<br><br>
+
+<!-- ============================================================================== -->
+
+		<label>E-mail:</label>
+			<input type="mail" name="email" id="email" required 
+			size="49" maxlength="100" placeholder="                              @gmail.com">
+		<br><br>	
+
+<!-- ============================================================================== -->
+
+		<label>Idade:</label>
+			<input type="text" name="idade" id="idade" required 
+			size="22" maxlength="3" placeholder="Não pode mentir parça">
+		<br><br>
+
+<!-- ===CEP======================================================================== -->
+
+		<label>CEP:</label>
+			<input type="text" name="cep" id="cep" required
+			size="12" maxlength="8" placeholder="Somente Numeros" onblur="checaCep()">
+		<br><br>
+
+<!-- ===ENVIAR======================================================================= -->
+
+	
+    	<label> Envie Sua Mensagem</label>
+    	<br>
+  	   <textarea rows="5" cols="50" maxlength="100"></textarea>
+
+		
+			<input type="submit" value="Enviar" onclick="mensagem()" />
+		<br><br>
+
+<!-- ============================================================================== -->	
+	</body>
+</html>

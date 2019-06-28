@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset ="utf-8">
+<head>
+	<title>Formulario</title>
+	
+</head>
+<body>
+
+		<h1>Formulario</h1>
+		<hr>
+		<br>
+
+<!-- ===formulario================================================================= -->
+
+		<form name="formulario" method="post" action="prog1.php">
+
+<!-- ===Texto====================================================================== -->
+
+		<label>Nome:</label>
+		<br>
+			<input type="text" name="nome" id="nome" required 
+			size="50" maxlength="100" placeholder = "Seu nome Completo">
+
+		<br><br>
+
+<!-- ===Texto====================================================================== -->
+
+		<label>Veículo:</label>
+		<br>
+			<select name="estado" id="estado">
+				<option value="onix">Onix</option>
+				<option value="gol">Gol</option>
+				<option value="hc">Honda Civic</option>
+			</select>	
+		<br><br>
+
+<!-- ===Texto====================================================================== -->
+
+		<label>Cor:</label>
+		<br>
+			<select name="cor" id="cor">
+				<option value="c">Cinza</option>
+				<option value="b">Branco</option>
+				<option value="p">Preto</option>
+				<option value="v">Vermelho</option>
+
+			</select>	
+		<br><br>
+
+<!-- ===Texto====================================================================== -->
+
+		<label>Ano:</label>
+		<br>
+			<select name="ano" id="ano">
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+			</select>
+		<br><br>	
+
+<!-- ===Texto====================================================================== -->
+
+		<label>Motor:</label>
+		<br>
+			<select name="motor" id="motor">
+				<option value="1.0">1.0</option>
+				<option value="1.4">1.4</option>
+				<option value="1.8">1.8</option>
+			</select>	
+		<br><br>
+
+<!-- ===Idade====================================================================== -->
+
+		<label>Valor:</label>
+		<br>
+			<input type="number" name="valor" id="valor" required 
+			size="20" maxlength="1">
+		<br><br>
+
+<!-- ===Data======================================================================= -->
+
+		<label>Data de Fabricação:</label>
+		<br>
+			<input type="date" name="data" id="data" 
+			size="20">
+		<br><br>
+
+<!-- ===Mensagem=================================================================== -->	
+		
+		<input type="submit">
+		<input type="reset">
+
+		<br><br>
+		
+
+</body>
+</html>

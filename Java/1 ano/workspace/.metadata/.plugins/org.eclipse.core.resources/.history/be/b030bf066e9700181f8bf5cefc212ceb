@@ -1,0 +1,10 @@
+package fundamentos;
+
+public class TiposPrimitivos {
+	
+	//Tipo Primitivo Boolean
+	boolean bo1 = false;
+	boolean bo2 = true;
+	
+
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body{
+	height: 100%;
+	font-family: cursive;
+	padding: 20px;
+	background-color: rgb(66,0,156);
+	color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 50%;
+	text-align: center;
+
+}
+
+fieldset{
+	border-color: cyan;
+}
+
+.btn{
+	border: none;
+	color: white;
+	background-color: black;
+	padding: 8px;
+}

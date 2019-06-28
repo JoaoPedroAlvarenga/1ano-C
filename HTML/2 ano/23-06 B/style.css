@@ -1,0 +1,27 @@
+body{
+	padding: 10px; 
+	margin: 10px;
+	font-family: cursive;
+
+}
+.h1{
+	position: fixed;
+
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 50%;
+
+	text-align: center;
+}
+
+.h2{
+	position: fixed;
+
+	top: 50%;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+
+	text-align: center;	
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<html lang="pt-br">
+<meta charset="utf-8">
+<head>
+	<title>ex1</title>
+	<style>
+		fieldset{
+			width: 100px;
+			height: 150px;
+		}
+	</style>
+</head>
+<body>
+	<h1>exe</h1>
+	<form action="ex2.html">
+		<table>
+	<tr>
+		<td><label>Nome:</label></td>
+		<td><input type="text" size="100" maxlength="100" required/></td>
+	</tr>
+	<tr>
+		<td><label>idade:</label></td>
+		<td><input type="number" size="4" maxlength="4" required/></td>
+	</tr>
+	<tr>
+		<td><label>Data de Cadastro:</label>
+		<td><input type="date" required/></td>
+	</tr>
+	<tr>
+		<td><fieldset><legend> Sexo </legend>
+			<input type="radio" value="M"/> Masculino
+			<input type="radio" value="F"/> Feminino
+		</fieldset>
+		</td>
+    </tr>
+    <tr>	
+    	<td><label> Envie Sua Mensagem</label></td>
+    	<td> <textarea rows="5" cols="50" maxlength="100"></textarea></td>
+     </tr>
+     <tr>
+     	<td><label>Tipo de Cliente</label></td>
+		<td><select>
+			<option>VIP</option>
+			<option>Comum</option>
+			<option>Pobretão</option>
+			<option>Basic Pack</option>
+		</select></td>     
+     </tr>
+     <tr>
+     	<td> <input type="submit" value="enviar"></td>
+     	<td> <input type="reset" value="limpar"></td>
+     </tr>
+        </table></form>
+
+</body>
+</html>

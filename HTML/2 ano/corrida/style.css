@@ -1,0 +1,25 @@
+body{
+	font-family: cursive;
+}
+.h1{
+	color: #fa0;
+}
+
+input{
+	background-color: #444;
+	color: #000;
+}
+
+input:focus{
+	background-color: green;
+	color: #000;
+}
+
+input:hover{
+	background-color: green;
+	color: #000;
+}
+input:active{
+	background-color: green
+	color: #000;
+}

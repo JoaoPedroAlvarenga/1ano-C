@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuNoticiasId"
+            android:icon="@drawable/ic_noticias_preto"
+            android:title="@string/nav_menu_noticias" />
+        <item
+            android:id="@+id/menuHistoriasId"
+            android:icon="@drawable/ic_historias_preto"
+            android:title="@string/nav_menu_historias" />
+        <item
+            android:id="@+id/menuMapaId"
+            android:icon="@drawable/ic_map_black"
+            android:title="@string/nav_menu_mapa" />
+
+        <item
+            android:id="@+id/menuDoacaoId"
+            android:icon="@drawable/ic_dinheiro_preto"
+            android:title="@string/nav_menu_doacao" />
+        <item
+            android:id="@+id/menuAfiliarId"
+            android:icon="@drawable/ic_pessoa"
+            android:title="@string/nav_menu_afiliar" />
+
+        <item
+            android:id="@+id/menuLojaId"
+            android:icon="@drawable/ic_loja_preta"
+            android:title="@string/nav_menu_loja" />
+
+
+    </group>
+
+
+
+</menu>

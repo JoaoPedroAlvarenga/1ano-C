@@ -1,0 +1,21 @@
+package controle;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class NumeroPrimo {
+
+	public static void main(String[] args) {
+		
+		
+		String n = JOptionPane.showInputDialog("Digite um numero: ")
+		int n1 = Integer.parseInt(n);
+		
+		
+		
+		
+		
+		
+	
+}

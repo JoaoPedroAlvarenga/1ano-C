@@ -1,0 +1,23 @@
+@charset="utf-8"
+#body{
+	background-color: 
+}
+#menu ul{
+	padding: 0px;
+	margin: 0px;
+	background-color: #EDEDED;
+	list-style: none;
+}
+nav #menu{
+	display: inline-block;
+}
+nav #menu ul li a{
+	background-color: #ffffff;
+	color: #777;
+	text-decoration: none;
+	float: left;
+}
+nav #menu ul li a:hover{
+	background-color: #D6D6D6;
+	color: #6D6D6D;
+}

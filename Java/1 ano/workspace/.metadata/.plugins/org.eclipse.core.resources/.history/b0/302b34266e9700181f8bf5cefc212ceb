@@ -1,0 +1,12 @@
+package fundamentos;
+
+public class TiposPrimitivos {
+	
+	public static void main(String[] args) {
+	
+		//Tipo Primitivo Boolean
+		boolean bo1 = false;
+		boolean bo2 = true;
+		System.out.println('%b %b',bo1, bo2);
+	}
+}

@@ -1,0 +1,2 @@
+INDEX VERSION 1.130+E:\PEN DRIVE lucas\Rezende_lucas\Trabalhos em Java\.metadata\.plugins\org.eclipse.jdt.core
+2781116998.index

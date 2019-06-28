@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class ConverçãoNumerica {
+
+	public static void main(String[] args) {
+		
+		float f = (float) 0.1;
+		System.out.println(f);
+		
+		int i = (int)7.9;
+		System.out.println(i);
+		
+		
+	}
+}

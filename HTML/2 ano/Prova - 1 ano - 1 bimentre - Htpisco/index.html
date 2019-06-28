@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Prova</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form method="post" action="php.php">
+		
+<!----------------------------------------------------------------------------------->
+		<div>
+			<h2>Inforações</h2>
+			<fieldset>
+				<h3>Nome / Sobrenome:</h3>
+				<input type="text" name="nome" value="" placeholder="--> Seu Nome aqui"
+				size="" maxlength="" checked="nome" required> 
+				<input type="text" name="nome" value="" placeholder="--> Seu Sobrenome aqui"
+				size="" maxlength="" checked="nome" required> 
+
+
+				<h3>Sexo:</h3>
+				<select>
+					<option>Masculino</option>
+					<option>Feminino</option>
+				</select>
+
+				<h3>Idade:</h3>
+				<input type="text" name="numero" maxlength="3" x
+				required>
+
+				<h4>CPF: </h4>
+				<input type="number" name="aptapt" required>
+
+			</fieldset>
+		</div>
+<!----------------------------------------------------------------------------------->
+		<div class="divemail">
+			<h2>Contato</h2>
+			<fieldset>
+				<h3>Email:</h3>
+				<input type="email" name="email" placeholder="--> email@email.com" 
+				required>
+
+			<h3>Senha</h3>
+				<input type="password" name="senha" required>
+			
+			<h3>Telefone:</h3>
+				<input type="text" name="numero" placeholder="(DDD) XXXXX-XXXX" maxlength="12" 
+				required>
+
+			</fieldset>
+		</div>
+
+<!----------------------------------------------------------------------------------->
+		<div class="endereço">
+			<h2>Endereço</h2>
+			<fieldset>
+				<h4>Rua: </h4>
+				<input type="text" name="aptrua">
+
+				<h4>Numero: </h4>
+				<input type="number" name="aptnum">
+
+				<h4>Apartamento: </h4>
+				<input type="number" name="aptapt">
+
+				<h4>Bloco: </h4>
+				<input type="number" name="aptblc">
+
+			</fieldset>
+		</div>
+
+<!----------------------------------------------------------------------------------->
+		<div>
+			<fieldset>
+				<input type="radio" name="">
+				<label>Li e aceito os termos de uso</label>
+			</fieldset>
+		</div>
+
+<!----------------------------------------------------------------------------------->
+		<div class="divbtn">
+			<input class="btn" type="submit" name="">
+			<input class="btn" type="reset" name="enviar">
+		</div>
+
+	</form>
+</body>
+</html>

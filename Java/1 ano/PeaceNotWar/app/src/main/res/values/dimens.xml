@@ -1,0 +1,10 @@
+<resources>
+    <!-- Dimensões dentro do app -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="espaco_cabecalho">85dp</dimen>
+    <dimen name="tamanho_texto_cabecalho">18sp</dimen>
+</resources>

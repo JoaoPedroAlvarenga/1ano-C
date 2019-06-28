@@ -1,0 +1,23 @@
+body{
+	background-color: #70DB93;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+h1{
+	font-family: arial, sans-serif;
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+	
+img.koala{
+	width: 500px
+}
+
+p{
+	font-weight: bold;
+	font size: 12pt;
+	font-family: arial, sans-serif;
+	text-align: justify;
+	text-indent: 30px;
+}

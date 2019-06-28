@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Peace Not War</string>
+    <string name="navigation_drawer_open">Abrir menu flutuante</string>
+    <string name="navigation_drawer_close">Fechar menu flutuante</string>
+    <string name="nav_header_desc">Menu flutuante</string>
+    <string name="nav_cabecalho_titulo">Peace Not War</string>
+    <string name="nav_menu_noticias">Últimas notícias</string>
+    <string name="nav_menu_mapa">Mapa</string>
+    <string name="nav_menu_historias">Histórias</string>
+    <string name="nav_menu_doacao">Doação</string>
+    <string name="nav_menu_afiliar">Junte-se a nós!</string>
+    <string name="nav_menu_loja">Loja</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

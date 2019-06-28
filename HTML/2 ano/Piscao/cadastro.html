@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset ="utf-8">
+<head>
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Formulario</h1>
+
+	<nav id="menu">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="cadastro.html">Cadastro</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+		</ul>	
+	</nav>
+	<br>
+	<hr>
+	<br>
+
+<!-- ===formulario================================================================= -->
+
+		<form name="formulario" method="post" action="prog1.php">
+
+
+<!-- ===Texto====================================================================== -->
+
+		<label>Nome:</label>
+		<br>
+			<input type="text" name="nome" id="nome" required 
+			size="50" maxlength="100" placeholder = "Seu nome Completo">
+
+		<br><br>
+
+<!-- ===Idade====================================================================== -->
+
+		<label>Idade:</label>
+		<br>
+			<input type="number" name="idade" id="idade" required="" 
+			size="20" maxlength="1">
+		<br><br>
+
+<!-- ============================================================================== -->
+
+		<label>E-mail:</label>
+		<br>
+			<input type="mail" name="email" id="email" 
+			size="20" maxlength="100">
+		<br><br>	
+
+<!-- ===Data======================================================================= -->
+
+		<label>Data:</label>
+		<br>
+			<input type="date" name="data" id="data" 
+			size="20">
+		<br><br>
+<!-- ===Estado===================================================================== -->
+		
+		<label>Estado:</label>
+		<br>
+			<select name="estado" id="estado">
+				<option value="rj">Rio de Janeiro</option>
+				<option value="sp">São Paulo</option>
+				<option value="mg">Minas Gerais</option>
+			</select>
+		<br><br>	
+
+				<hr>
+</body>
+</html>
