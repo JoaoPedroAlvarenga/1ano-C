@@ -14,8 +14,8 @@ Segundo Ano - <b> Rodrigão / Franklin </b>
 
 # PHP
 
-Segundo Ano - Cleytão
+Segundo Ano - <b> Cleytão </b>
 
 # Pascal
 
-Segundo Ano - 
+Segundo Ano - <b>  </b>
