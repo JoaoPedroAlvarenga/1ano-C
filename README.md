@@ -3,12 +3,12 @@
 
 # HTML
 
-Primeiro Ano - <b> Cleytão </b>
+Primeiro Ano - <b> Cleytão </b> 
 Segundo Ano - <b> Piscão </b>
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 # Java
 
-Primeiro Ano - <b> Flavia </b>
+Primeiro Ano - <b> Flavia </b> <br>
 Segundo Ano - <b> Rodrigão / </b>
 
 # PHP
