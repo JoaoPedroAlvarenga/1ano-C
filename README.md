@@ -19,3 +19,5 @@ Segundo Ano - <b> Cleytão </b>
 # Pascal
 
 Segundo Ano - <b>  </b>
+
+💻 | 📱
