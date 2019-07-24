@@ -1,22 +1,27 @@
+---
 # C
 
-Primeiro Ano - <b> Flavia </b>
+- Primeiro Ano - <b> Flavia </b>
 
+---
 # HTML
 
-Primeiro Ano - <b> Cleytão </b> <br>
-Segundo Ano - <b> Piscão </b> 
+- Primeiro Ano - <b> Cleytão </b> <br>
+- Segundo Ano - <b> Piscão </b> 
 
+---
 # Java
 
-Primeiro Ano - <b> Flavia </b> <br> 
-Segundo Ano - <b> Rodrigão / Franklin </b>
+- Primeiro Ano - <b> Flavia </b> <br> 
+- Segundo Ano - <b> Rodrigão / Franklin </b>
 
+---
 # PHP
 
-Segundo Ano - <b> Cleytão </b>
+- Segundo Ano - <b> Cleytão </b>
 
+---
 # Pascal
 
-Segundo Ano - <b> Julião </b>
+- Segundo Ano - <b> Julião </b>
 
