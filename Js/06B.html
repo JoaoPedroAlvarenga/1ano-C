@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aula 06 B</title>
+    <title>Aula 06</title>
     <style>
         body{
             background-color: #652a96;
@@ -21,8 +21,8 @@
     <hr>
     <script>
         var nome = window.prompt("Seu nome: ")
-        var n1 = Number.parseInt(window.prompt("Fala " + nome + ", Digite um numero"))
-        var n2 = Number.parseInt(window.prompt(nome + " me diga outro numero"))
+        var n1 = Number(window.prompt("Fala " + nome + ", Digite um numero"))
+        var n2 = Number(window.prompt(nome + " me diga outro numero"))
         var soma = n1 + n2
         window.alert("A soma dos numeros foram " + soma)
     </script>
