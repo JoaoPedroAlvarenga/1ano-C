@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula 06 B</title>
+    <style>
+        body{
+            background-color: #652a96;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 30pt;
+            font-family: cursive
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <script>
+        var preço = window.prompt("Preço")
+        n = preço.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
+        document.write(`O preço foi ${preço}<br>`)
+        document.write(`O preço foi ${n}`)
+    </script>
+    <hr>
+</body>
+</html>
