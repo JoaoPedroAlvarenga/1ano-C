@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula 1 B | Js - JAVA Script</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			background-color: purple;
+			text-align: left;
+			padding: 2%;
+			color: white;
+			font-size: 44px;
+			font-family: cursive;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		while(true){
+			choice = parseInt(window.prompt("[1] - Soma \n[2] - Subtração \n[3] - Multiplicação  \n[4] - Divisão\n\n"))
+
+			if (choice == 1) {
+				n1 = parseInt(window.prompt("Digite um numero"))
+				n2 = parseInt(window.prompt("Digite um numero"))
+				soma = n1 + n2
+				document.write("Soma:        " + soma)
+				document.write("<br>")
+			}
+			if (choice == 2) {
+				n1 = parseInt(window.prompt("Digite um numero"))
+				n2 = parseInt(window.prompt("Digite um numero"))
+				soma = n1 - n2
+				document.write("Subtração:    " + soma)
+				document.write("<br>")
+			}
+			if (choice == 3) {
+				n1 = parseInt(window.prompt("Digite um numero"))
+				n2 = parseInt(window.prompt("Digite um numero"))
+				soma = n1 * n2
+				document.write("Multiplicação: " + soma)
+				document.write("<br>")
+			}
+			if (choice == 4) {
+				n1 = parseInt(window.prompt("Digite um numero"))
+				n2 = parseInt(window.prompt("Digite um numero"))
+				soma = n1 / n2
+				document.write("Divisão:       " + soma)
+				document.write("<br>")
+			}
+			if (choice == 0) {
+				break
+			}
+		}
+
+	</script>
+
+</body>
+</html>
