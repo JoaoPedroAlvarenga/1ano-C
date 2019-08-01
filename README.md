@@ -28,5 +28,5 @@
 ---
 # JavaScript 
 
-- Segundo Ano - <b> Piscp </b>
+- Segundo Ano - <b> Pisco </b>
 
