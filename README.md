@@ -16,6 +16,11 @@
 - Segundo Ano - <b> Rodrigão / Franklin </b>
 
 ---
+# JavaScript 
+
+- Segundo Ano - <b> Pisco </b>
+
+---
 # PHP
 
 - Segundo Ano - <b> Cleytão </b>
@@ -25,8 +30,4 @@
 
 - Segundo Ano - <b> Julião </b>
 
----
-# JavaScript 
-
-- Segundo Ano - <b> Pisco </b>
 
