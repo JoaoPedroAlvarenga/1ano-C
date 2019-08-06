@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula do Cleytão</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+	<script type="text/javascript">
+		function ckCPF(){
+			if (document.fomulario.cpf.value.lenght != 11) {
+				window.alert("CPF invalido")
+			}
+		}
+	</script>
+
+<body>
+	<form name="fomulario" method="post" action="formulario.php" >
+		<label>Cpf:
+			<input type="name" name="cpf" onblur="ckCPF()">
+		</label>
+
+		<input type="submit" value="Consultar">
+	</form>
+</body>
+</html>

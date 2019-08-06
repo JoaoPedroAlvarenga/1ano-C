@@ -1,0 +1,10 @@
+create table cliente(
+
+codCliente int primary key auto_increment,
+nome varchar(100), 
+cpf varchar(20), 
+telefone varchar(100),
+email varchar(100)
+
+
+)
