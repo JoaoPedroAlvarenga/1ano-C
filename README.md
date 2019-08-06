@@ -1,4 +1,9 @@
 ---
+# Access
+
+- Segundo Ano - <b> Piscão </b> 
+
+---
 # C
 
 - Primeiro Ano - <b> Flavia </b>
@@ -7,7 +12,7 @@
 # HTML
 
 - Primeiro Ano - <b> Cleytão </b> <br>
-- Segundo Ano - <b> Piscão </b> 
+- Segundo Ano (1 Bimestre) - <b> Piscão </b> 
 
 ---
 # Java
@@ -18,7 +23,7 @@
 ---
 # JavaScript 
 
-- Segundo Ano - <b> Pisco </b>
+- Segundo Ano (2 Bimestre) - <b> Pisco </b>
 
 ---
 # PHP
