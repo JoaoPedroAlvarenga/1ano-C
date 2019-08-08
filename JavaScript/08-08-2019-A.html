@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<!-- Leia dois valores e mostre o maior entre eles -->
+<head>
+	<title>Aula 2 A | Js - Java Script</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			background-color: purple;
+			text-align: center;
+			color: white;
+			font-size: 77px;
+			font-family: cursive;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		function maior_menor(numero) {
+			n = numero
+			if (i == 0) {
+				maior = n
+				menor = n
+			} else {
+				if (n > maior) {
+					maior = n
+				}
+				if (n < menor) {
+					menor = n
+				}
+			}
+		}
+		const quantidade = 2
+
+		for (var i = 0; i < quantidade; i++) {
+			n = parseFloat(window.prompt("Digite um numero [" + (i + 1) + "]"))
+
+			maior_menor(n);
+		}
+		document.write("Maior: " + maior)
+		document.write("<br>")
+		document.write("Menor: " + menor)
+		
+
+	</script>
+
+</body>
+</html>

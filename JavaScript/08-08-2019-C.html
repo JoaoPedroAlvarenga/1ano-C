@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<!-- Leia dois valores e mostre o maior entre eles -->
+<head>
+	<title>Aula 2 C | Js - Java Script</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			padding-top: 7%;
+			background-color: purple;
+			text-align: center;
+			color: white;
+			font-size: 35px;
+			font-family: cursive;
+		}
+	</style>
+</head>
+
+<body>
+	<label>Nota 1 <br>
+		<input type="number" id="n1"><br>
+	</label>
+
+	<label>Nota 2 <br>
+		<input type="number" id="n2"><br>
+	</label>
+	
+	<label>Nota 3 <br>
+		<input type="number" id="n3"><br>
+	</label>
+	
+	<label>Nota 4 <br>
+		<input type="number" id="n4"><br>
+	</label>
+
+	<button onclick="calc()"> Aperte isso Gora da Silva </button>
+
+
+	<script type="text/javascript">
+		function calc() {
+			var n1 = document.querySelector('#n1').value;
+			var n2 = document.querySelector('#n2').value;
+			var n3 = document.querySelector('#n3').value;
+			var n4 = document.querySelector('#n4').value;
+
+			console.log(n1);
+
+			var media = parseFloat( (n1 + n2 + n3 + n4) / 4);
+
+			alert("Media: " + media);
+		}
+	</script>
+</body>
+</html>
