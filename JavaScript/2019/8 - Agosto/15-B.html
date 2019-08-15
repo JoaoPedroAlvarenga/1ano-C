@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula 2 B | Js - Java Script</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			padding-top: 2%;
+			background-color:steelblue;
+			text-align: center;
+			color: white;
+			font-size: 35px;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+
+	</style>
+</head>
+<body>
+	<form>
+		<hr>
+		<label>Valor <br>
+			<input type="number" id="valor" >
+		</label><br><br>
+
+		<label>Porcentagem <br>
+			<input type="number" id="porc" >
+		</label><br><br>
+
+		<hr>
+		<button id="calcular" onclick="porcentagem()"> Calcula </button>
+    </form>
+    
+	<script type="text/javascript">
+
+		function porcentagem(){
+            console.log("Entrou na funçao");
+			var valor = parseFloat(document.getElementById("valor").value);
+			console.log("Valor: " + valor);
+
+			var porcent = parseFloat(document.getElementById("porc").value);
+			console.log("Porcentagem" + porcent);
+
+            var final = valor + ( (valor * porcent) / 100);
+            
+            console.log("Final" + final);
+
+			alert("Final: " + final);
+		}
+		
+		console.log("Testando");
+	</script>
+</body>
+</html>
