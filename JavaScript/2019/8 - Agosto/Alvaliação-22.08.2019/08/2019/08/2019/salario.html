@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<!-- Leia dois valores e mostre o maior entre eles -->
+<head>
+	<title>Avaliação | Js - Java Script</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav id="menu">
+		<ul>
+			<li><a href="media.html" class="link">Media</a></li>
+			<li><a href="porcentagem.html" class="link">Porcentagem</a></li>
+			<li><a href="salario.html" class="link">Salario</a></li>
+		</ul>
+	</nav>
+
+	<form>
+		<hr>
+
+		<label>Valor da hora trabalhada <br>
+			<input type="number" name="vlr_hora" id="vlr_hora" >
+		</label><br><br>
+
+		<label>Quantidade de horas <br>
+			<input type="number" name="qnt_hora" id="qnt_hora" >
+		</label><br><br>
+
+		<label>Dias trabalhados <br>
+			<input type="number" name="day" id="day" required>
+		</label><br><br>
+		
+		<hr>
+		<button id="calcular" onclick="calcSalario()">Calcula ai meu consagra</button>
+	</form>
+	
+	<script type="text/javascript">
+
+		function calcSalario(){
+			var valor = document.getElementById("vlr_hora").value;
+			console.log(valor);
+
+			var quantidade = document.getElementById("qnt_hora").value;
+			console.log(quantidade);
+
+			var dia = document.getElementById("day").value;
+			console.log(quantidade);
+
+			var salario = valor * quantidade * dia;
+			console.log(salario);
+
+			window.alert("Salario: R$" + salario);
+		}
+		
+		console.log("Teste");
+	</script>
+
+</body>
+</html>

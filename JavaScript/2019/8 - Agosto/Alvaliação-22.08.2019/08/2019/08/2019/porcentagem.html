@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Avaliação | Js - Java Script</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>    
+	<nav id="menu">
+        <ul>
+            <li><a href="media.html" class="link">Media</a></li>
+            <li><a href="porcentagem.html" class="link">Porcentagem</a></li>
+            <li><a href="salario.html" class="link">Salario</a></li>
+        </ul>
+	</nav>
+	
+	<form>
+		<hr>
+		<label>Valor <br>
+			<input type="number" id="valor" >
+		</label><br><br>
+
+		<label>Porcentagem <br>
+			<input type="number" id="porc" >
+		</label><br><br>
+
+		<hr>
+		<button id="calcular" onclick="porcentagem()"> Calcula </button>
+    </form>
+    
+	<script type="text/javascript">
+
+		function porcentagem(){
+            console.log("Entrou na funçao");
+			var valor = parseFloat(document.getElementById("valor").value);
+			console.log("Valor: " + valor);
+
+			var porcent = parseFloat(document.getElementById("porc").value);
+			console.log("Porcentagem" + porcent);
+
+            var final = (valor * porcent) / 100;
+            
+            console.log("Final" + final);
+
+			alert("Porcentagem: " + final);
+		}
+		
+		console.log("Testando");
+	</script>
+</body>
+</html>

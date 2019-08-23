@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Avaliação | Js - JAVA Script</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="media.html" class="link">Media</a></li>
+            <li><a href="porcentagem.html" class="link">Porcentagem</a></li>
+            <li><a href="salario.html" class="link">Salario</a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <form>
+        
+        <label>Nota 1 <br>
+            <input type="number" id="nota1" >
+        </label><br><br>
+  
+        <label>Nota 2 <br>
+            <input type="number" id="nota2" >
+        </label><br><br>
+  
+        <label>Nota 3 <br>
+            <input type="number" id="nota3" >
+        </label><br><br>
+  
+        <label>Nota 4 <br>
+            <input type="number" id="nota4" >
+        </label>
+        <br>
+        <button id="calcular" onclick="media()"> Calcula </button>
+    </form>
+
+    <script type="text/javascript">
+        console.log("Entrou no JS");
+
+        function media(){
+            console.log("Entrou na media");
+            var nota1 = parseFloat(document.getElementById("nota1").value)
+            var nota2 = parseFloat(document.getElementById("nota2").value)
+            var nota3 = parseFloat(document.getElementById("nota3").value)
+            var nota4 = parseFloat(document.getElementById("nota4").value)
+
+            media = (nota1 + nota2 + nota3 + nota4) / 4
+
+            window.alert("Média: " + media)
+
+            if (media >= 6) {
+                window.alert("Aprovado")
+            }else{
+                window.alert("Reprovado")
+            }
+        }
+
+	</script>
+
+</body>
+</html>
