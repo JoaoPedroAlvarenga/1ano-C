@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<meta charset="utf-8">
+	<title>PiStore | Melhor Loja da ETRR</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="img/store.png" sizes="16x16" />
+	<link rel="icon" href="img/store.png" sizes="32x32"/>
+
+</head>
+<body>
+
+<div class="form">
+	<fieldset>
+		<legend>Cadastrar Aluno</legend>
+
+		<form name="formulario" method="post" action="">
+
+		<br><br>
+		<label>Nome completo<br>
+				<input type="text" name="nome" id="nome" required 
+				size="50" maxlength="100" placeholder = "Seu nome Completo">
+			<br><br>
+		</label>
+
+		<label>Media<br>
+			<input type="text" name="media" id="nome" required 
+			size="50" maxlength="100" placeholder = "Seu nome Completo">
+		<br><br>
+		</label>
+
+		<label>CPF<br>
+			<input type="text" name="cpf" id="cep" required
+			size="12" maxlength="8" placeholder="Somente Numeros" 
+			onblur="checaCep()">
+			<br><br>
+		</label>
+
+		<br><br>
+		<div class="enviar">
+			<input class="btn" type="reset" name="enviar" value="Limpar">
+			<input class="btn" type="submit" name="enviar" value="Enviar">
+		</div>
+
+	</fieldset>
+</div>
+
+
+</form>
+
+</body>
+</html>
