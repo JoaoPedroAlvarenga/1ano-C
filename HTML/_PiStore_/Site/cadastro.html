@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<meta charset="utf-8">
+	<title>PiStore | Contato</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="img/store.png" sizes="16x16" />
+	<link rel="icon" href="img/store.png" sizes="32x32"/>
+
+	<script type="text/javascript">
+		function checaCep(){
+			if(document.formulario.cep.value.length != 8){
+				alert('Digite o CEP corretamente');
+			}
+		}
+	</script>
+</head>
+<body>
+
+	<div id="pistore">
+		<a href="index.html"><img class="imgG" src="img/Americanas.png" ></a>
+	</div>
+
+
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="cadastro.html">Cadastro</a></li>
+		</ul>
+	</nav>
+
+
+	<div class="form">
+		<fieldset>
+			<legend>Contato</legend>
+
+			<form name="formulario" method="post" action="aprovado.html">
+
+				<label>Nome completo
+					<br>
+					<input type="text" name="nome" required 
+					size="50" maxlength="100" placeholder = "Seu nome Completo">
+					<br><br>
+				</label>
+
+
+				<label>E-mail
+					<br>
+					<input type="mail" name="email" required
+					size="20" maxlength="100" placeholder="email@email.com">
+					<br><br>
+				</label>	
+
+				<label>Data de Nascimento
+					<br>
+					<input type="date" name="data" required 
+					size="20">
+					<br><br>
+				</label>
+
+				<label>CEP</label><br>
+				<input type="text" name="cep" id="cep" required
+				size="12" maxlength="8" placeholder="Somente Numeros" 
+				onblur="checaCep()">
+				<br><br>
+				
+				<label>Estado
+					<br>
+					<select name="estado" id="estado"> 
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="AC">Acre</option>
+						<option value="AL">Alagoas</option>
+						<option value="AP">Amapá</option>
+						<option value="AM">Amazonas</option>
+						<option value="BA">Bahia</option>
+						<option value="CE">Ceará</option>
+						<option value="DF">Distrito Federal</option>
+						<option value="ES">Espírito Santo</option>
+						<option value="GO">Goiás</option>
+						<option value="MA">Maranhão</option>
+						<option value="MT">Mato Grosso</option>
+						<option value="MS">Mato Grosso do Sul</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="PA">Pará</option>
+						<option value="PB">Paraíba</option>
+						<option value="PR">Paraná</option>
+						<option value="PE">Pernambuco</option>
+						<option value="PI">Piauí</option>
+						<option value="RN">Rio Grande do Norte</option>
+						<option value="RS">Rio Grande do Sul</option>
+						<option value="RO">Rondônia</option>
+						<option value="RR">Roraima</option>
+						<option value="SC">Santa Catarina</option>
+						<option value="SP">São Paulo</option>
+						<option value="SE">Sergipe</option>
+						<option value="TO">Tocantins</option>
+					</select> 
+				</label>
+
+			</fieldset>
+		</div>
+
+		<div class="enviar">
+			<input class="btn" type="reset" name="enviar" value="Limpar">
+			<input class="btn" type="submit" name="enviar" value="Enviar">
+		</div>
+		
+	</form>
+	<br><br>
+	<p>
+		<h1 id="patro">Patrocinadores</h1>
+	</p>
+	<br><br><br><br><br>
+	<img class="imgG" src="img/saldo/patrocinio.jpg" > 
+	<br><br><br><br><br>
+
+
+	<footer>
+		<br>
+		<p>PiStore | Companhia Digital  /  CNPJ: 23.955.416/0001-69  /  Inscrição Estadual: 821.847.393.452  /  Endereço Boulevard Albert 1er, 98000 Monaco, Mônaco</p>		
+		<br><hr><br>	
+		<p id="esq">Copyright &copy; <script>document.write(new Date().getFullYear());</script> todos os direitos reservados | Designer feito por João Pedro Alvarenga & Pedro Lucas</p>
+		<br>
+	</footer>
+
+</body>
+</html>
+

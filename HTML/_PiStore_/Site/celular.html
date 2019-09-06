@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<meta charset="utf-8">
+	<title>PiStore | Smartphone</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="img/store.png" sizes="16x16" />
+	<link rel="icon" href="img/store.png" sizes="32x32"/>
+
+	<script type="text/javascript">
+		function checaCep(){
+			if(document.formulario.cep.value.length != 8){
+				alert('Digite o CEP corretamente');
+			}
+		}
+	</script>
+</head>
+<body>
+
+	<div id="pistore">
+		<a href="index.html"><img class="imgG" src="img/Americanas.png" ></a>
+	</div>
+
+
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="cadastro.html">Cadastro</a></li>
+		</ul>
+	</nav>
+
+
+	<div class="itens">
+		<div class="esquerda">
+			<img class="imgG" src="img/imgSite/Celular.png" alt="">
+		</div>
+		<div class="direita">
+			<h1>Smartphone Samsung Galaxy </h1>
+			<h6>(Cód.134061781)</h6>
+
+			<br><br><br>
+
+			<form method="post" name="formulario" action="aceitar.html">
+				<label>Calcular frete e prazo </label>
+				<input id="cep" maxlength="11" type="text" placeholder="Digite seu CEP" name="cep" onblur="checaCep()" required>   
+				<input type="submit" class="btnOK" value="OK">
+
+
+				<br><br><br>
+				<div class="esquerda">
+					<input type="radio" name="">A vista  | R$ 900,00<br><br>
+					<input type="radio" name="">Cartão   | R$ 950,00<br><br>
+					<input type="radio" name="">10 Vezes | R$ 98,00 <br><br>
+				</div>
+
+				<div class="direita">
+					<input class="btn" type="submit" value="Comprar">
+					<br><br><br><br>
+				</div>
+				<br><br><br><br>
+			</form>
+		</div>
+	</div>
+
+
+
+	<br><br><br><br><br><br>
+	<img class="imgG" src="img\saldo\saldo1.png">
+	<br><br>
+	<p>
+		<h1 id="patro">Patrocinadores</h1>
+	</p>
+	<br><br><br><br><br>
+	<img class="imgG" src="img/saldo/patrocinio.jpg" > 
+	<br><br><br><br><br>
+
+
+	<footer>
+		<br>
+		<p>PiStore | Companhia Digital  /  CNPJ: 23.955.416/0001-69  /  Inscrição Estadual: 821.847.393.452  /  Endereço Boulevard Albert 1er, 98000 Monaco, Mônaco</p>		
+		<br><hr><br>	
+		<p id="esq">Copyright &copy; <script>document.write(new Date().getFullYear());</script> todos os direitos reservados | Designer feito por João Pedro Alvarenga & Pedro Lucas</p>
+		<br>
+	</footer>
+
+</body>
+</html>
+

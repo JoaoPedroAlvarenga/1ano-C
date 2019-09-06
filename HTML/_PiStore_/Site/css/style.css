@@ -1,0 +1,302 @@
+body{
+	height: 100%;
+	font-family: arial;
+	background-color: white;
+	color: black;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 0px;
+	bottom: 50%;
+	text-align: center;
+}
+
+body a{
+	color: black;
+}
+
+.btn{
+	background-color: #CC0000;
+	height: 40px;
+	width: 150px;
+	font-weight: bold;
+	color: #FFF;
+	border: 1px solid;
+	border-radius: 5px;
+	-webkit-border-radius: 5px; /* Chrome e o Safari */
+	-moz-border-radius: 5px; /* Firefox */
+	-o-border-radius: 5px; /* Opera */
+	-ms-border-radius: 5px; /* IE */
+}
+.btnOK{
+	background-color: #CC0000;
+	height: 40px;
+	width: 60px;
+	font-weight: bold;
+	color: #FFF;
+	border: 1px solid;
+	border-radius: 5px;
+	-webkit-border-radius: 5px; /* Chrome e o Safari */
+	-moz-border-radius: 5px; /* Firefox */
+	-o-border-radius: 5px; /* Opera */
+	-ms-border-radius: 5px; /* IE */
+}
+
+#btnCas{
+	color: #CC0000;
+	background-color: white;
+}
+
+#pistore{
+	color: #CC0000;
+	font-family: arial;
+	font-size: 30px;
+}
+
+/** Init Menu **/
+#menu ul li a { 
+	/** Dentro do Menu **/
+	font-size: 22px;
+	margin: 0px;
+	padding: 15px 50px;
+	display: inline-block;
+	background-color:#CC0000;
+	color: white;
+	border-bottom: 3px;
+}
+
+#menu ul{
+	padding: 10px;
+	margin: 0px;
+	background-color: #CC0000;
+	list-style: none;
+
+}
+
+#menu ul li{
+	display: inline;
+}
+
+.imgEsquerda{
+	width: 25%;
+	height: 50%;
+	display: inline-block;
+}
+
+.imgCentro{	
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+}
+
+.imgDireita{
+	width: 25%;
+	height: 50%;
+	display: inline-block;
+}
+
+
+.itens{
+	font-size: 20px;
+
+}
+
+.itens h2{
+	color: #CC0000;
+}
+
+#melhores{
+	text-align: left;
+	margin-left: 12%;
+	color: #CC0000;
+	font-family: cursive;
+}
+
+/* FORMULARIO */
+.form{
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-top: 4%;
+	text-align: left;
+	color: black;
+	font-size: 28px;
+	padding:10px 10px;
+
+}
+
+.form legend{
+	text-align: center;
+	color: #CC0000;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.form input, select{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+
+	width: 30%;
+	height:30px;
+
+	border-radius: 18px;
+	border-color: #CC0000;
+
+	font-weight: bold;
+}
+
+}
+.enviar input:hover{
+	background: #ff6d6d;
+}
+
+.enviar{
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+/* FIM FORMULARIO */
+
+footer{
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background-color: #CC0000;
+	color: white;
+	margin-top: 60px;
+	font-style: italic;
+
+}
+
+
+.BarraPesquisa {
+	padding: 18px;
+	border: 1px;
+	width: 98%;
+	height: 15%;
+}
+
+.pesquisa {
+	margin-left: 70%;
+}
+
+#escrevePesq{
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px color #CC0000;
+	width: 30%;
+	height:30px;
+	border-radius: 9px;
+	font-weight:bold;
+	align-self: left;
+}
+
+/* Foto Grande */
+
+
+.esquerda{
+	margin-top: 3%;
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	
+}
+
+
+.direita{
+	text-align: left;
+	width: 40%;
+	height: 50%;
+	display: inline-block;
+	
+}
+
+.imgG{
+	max-width: 1080px;   /* Máximo da largura da imagem */
+	width: 80%;
+	max-height: 500px;  /* Máximo da altura da imagem */
+	min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+	background-size:100%;
+	background-repeat: no-repeat;
+
+}
+
+
+.divMeio{
+	padding: 3%;
+	height: 10%;
+	color: white;
+	background-color: #CC0000;
+}
+
+.divMeio a{
+	color: white;
+}
+
+#privacidade{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 10%;
+	text-align: left;
+	color: gray;
+}
+
+#privacidade h1{
+	text-align: center;
+}
+
+#confirmaForm{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 4%;
+	margin-bottom: 11%;
+	text-align: center;
+	color: green;
+	font-size: 35px;
+}
+#bo{
+	color: black;
+	font-family: cursive;
+	
+}
+
+#patro{
+	padding: 1%;
+	background-color: red;
+	color: white;
+}
+
+#cep{
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px color #CC0000;
+	width: 15%;
+	height: 25px;
+	border-radius: 9px;
+	font-weight:bold;
+	align-self: left;
+}
+
+#aceitar{
+	margin-top: 8%;
+	margin-bottom: 10%;
+	text-align: center;
+	font-size: 20px;
+}
+#aceitar h2{
+	color: #CC0000;
+}
+#aceitar h4{
+	color: gray;
+}
+
+#imprimir{
+	background-color: gray;
+	color: white;
+	border-color: gray;
+	height: 40px;
+	width: 120px;
+	font-weight: bold;
+	border-radius: 10px;
+}
