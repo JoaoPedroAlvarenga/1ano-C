@@ -1,0 +1,11 @@
+create database aula
+
+====================
+
+create table cliente(
+matricula int primary key auto_increment,
+nome varchar(100),
+cpf varchar(100)
+)
+
+===========					
