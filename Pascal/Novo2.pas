@@ -7,9 +7,9 @@ var nome: String;
      read (nome);
      
      if ((nome[1] = 'a') or (nome[1] = 'e') or (nome[1] = 'i') or (nome[1] = 'o') or (nome[1] = 'u')) then
-		write('É volgal')
+			write('É volgal')
      else
-		write('nao É volgal')
+			write('nao É volgal')
       
   
   
