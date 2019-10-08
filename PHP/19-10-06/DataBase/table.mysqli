@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXIST cliente() default character set utf8 deffault collate 
+
+utf8_general_ci - Melhor para BR
+utf8_unicode_ci - Melhor para GLOBAL
+
+; 

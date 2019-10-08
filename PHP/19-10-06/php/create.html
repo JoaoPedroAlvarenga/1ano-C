@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">CREATE</a>
+            </li>
+            <li>
+                <a href="read.html">READ</a>
+            </li>
+            <li>
+                <a href="update.html">UPDATE</a>
+            </li>
+            <li>
+                <a href="delete.html">DELETE</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h2>Cadastro</h2>
+    <form action="php/insert.php" method="post">
+        <h3>Name</h3>
+        <input type="text" name="inputName" >
+        <h3>Mail</h3>
+        <input type="mail" name="inputMail" >
+        <h3>Senha</h3>
+        <input type="password" name="inputPass">
+
+        <br><br>
+        <input class="submit" type="submit" value="Enviar" >
+        </p>
+    </form>
+</body>
+</html>

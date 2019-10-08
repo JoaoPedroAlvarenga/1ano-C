@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="create.html">CREATE</a>
+            </li>
+            <li>
+                <a href="#">READ</a>
+            </li>
+            <li>
+                <a href="update.html">UPDATE</a>
+            </li>
+            <li>
+                <a href="delete.html">DELETE</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h2>Consultar</h2>
+    <form action="php/read.php" method="post">
+        <h3>Escolha [NAME - MAIL]</h3>
+        <input type="text" name="inputChoice" >
+
+        <h3>Name</h3>
+        <input type="text" name="inputName" >
+
+        <br><br>
+        <input class="submit" type="submit" value="Enviar" >
+        </p>
+    </form>
+</body>
+</html>

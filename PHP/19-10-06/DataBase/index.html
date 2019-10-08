@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="blue-grey">
+        <div class="nav-wrapper container">
+            <div class="brand-logo light">CRUD php</div>
+            <ul class="right">
+                <li><a href=""><i class="material-icons left">account_circle</i> Create</a></li>
+                <li><a href=""><i class="material-icons left">search</i> Read</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row container">
+        <p>&NonBreakingSpace;</p>
+        <form class="col d12" action="php/create.php" method="post">
+            <h5 class="center">Cadastro</h5>
+            <fieldset class="formulario">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <label for="dwd">Name</label>
+                    <input type="text" name="inputName" maxlength="70" required autofocus>
+                </div>
+
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">email</i>
+                    <label for="dwd">email</label>
+                    <input type="text" name="inputMail" maxlength="70" required >
+                </div>
+
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">gesture</i>
+                    <label for="dwd">password</label>
+                    <input type="password" name="inputPass" maxlength="70" required >
+                </div>
+                
+                <div class="input-field col s12">
+                    <input type="submit" value="Enviar" class="btn green">
+                    <input type="reset" value="Limpar" class="btn red">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <script src="materialize/js/jquery-3.4.1.min.js"></script>
+    <script src="materialize/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+        });
+    </script>
+</body>
+</html>
