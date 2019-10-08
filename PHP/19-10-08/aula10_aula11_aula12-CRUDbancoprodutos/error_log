@@ -1,0 +1,45 @@
+[02-Feb-2017 23:09:27 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'renatoal_root'@'localhost' to database 'renatoal_produtos' in /home/renatoalunoti/public_html/banco-de-produtos/connect.php on line 2
+[02-Feb-2017 23:09:27 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 8
+[02-Feb-2017 23:09:48 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'renatoal_root'@'localhost' to database 'renatoal_produtos' in /home/renatoalunoti/public_html/banco-de-produtos/connect.php on line 2
+[02-Feb-2017 23:09:48 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 8
+[02-Feb-2017 23:17:28 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'renatoal_root'@'localhost' to database 'renatoal_produtos' in /home/renatoalunoti/public_html/banco-de-produtos/connect.php on line 2
+[02-Feb-2017 23:17:28 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 8
+[02-Feb-2017 23:17:33 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'renatoal_root'@'localhost' to database 'renatoal_produtos' in /home/renatoalunoti/public_html/banco-de-produtos/connect.php on line 2
+[02-Feb-2017 23:17:33 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 8
+[02-Feb-2017 23:17:55 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'renatoal_root'@'localhost' to database 'renatoal_produtos' in /home/renatoalunoti/public_html/banco-de-produtos/connect.php on line 2
+[02-Feb-2017 23:17:55 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 8
+[02-Feb-2017 23:53:01 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/renatoalunoti/public_html/banco-de-produtos/msql-adicionar.php on line 11
+[02-Feb-2017 23:53:01 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/renatoalunoti/public_html/banco-de-produtos/msql-adicionar.php on line 11
+[03-Feb-2017 00:23:35 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/renatoalunoti/public_html/banco-de-produtos/msql-adicionar.php on line 11
+[03-Feb-2017 00:23:35 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/renatoalunoti/public_html/banco-de-produtos/msql-adicionar.php on line 11
+[03-Feb-2017 00:23:49 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/renatoalunoti/public_html/banco-de-produtos/msql-adicionar.php on line 11
+[03-Feb-2017 00:23:49 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/renatoalunoti/public_html/banco-de-produtos/msql-adicionar.php on line 11
+[03-Feb-2017 00:29:14 America/Sao_Paulo] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/renatoalunoti/public_html/banco-de-produtos/msql-adicionar.php on line 11
+[03-Feb-2017 00:38:44 America/Sao_Paulo] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/renatoalunoti/public_html/banco-de-produtos/msql-adicionar.php on line 11
+[03-Feb-2017 00:41:05 America/Sao_Paulo] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/renatoalunoti/public_html/banco-de-produtos/msql-adicionar.php on line 13
+[03-Feb-2017 00:44:36 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '<' in /home/renatoalunoti/public_html/banco-de-produtos/msql-adicionar.php on line 32
+[03-Feb-2017 00:52:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '>' in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 13
+[03-Feb-2017 00:54:14 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '>' in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 14
+[03-Feb-2017 00:55:04 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '>' in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 14
+[03-Feb-2017 00:55:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 14
+[03-Feb-2017 00:56:20 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 17
+[03-Feb-2017 00:56:44 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'Sem' (T_STRING) in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 17
+[03-Feb-2017 01:14:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '<' in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 32
+[03-Feb-2017 01:40:28 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'Deletar' (T_STRING), expecting ',' or ';' in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 49
+[03-Feb-2017 01:46:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'FROM' (T_STRING) in /home/renatoalunoti/public_html/banco-de-produtos/deletar.php on line 41
+[03-Feb-2017 01:53:40 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'confirmation' (T_STRING), expecting ',' or ';' in /home/renatoalunoti/public_html/banco-de-produtos/exibir.php on line 58
+[03-Feb-2017 01:58:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '". <a href='javascript:history' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/renatoalunoti/public_html/banco-de-produtos/deletar.php on line 40
+[03-Feb-2017 02:02:30 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '". <a href='javascript:history' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/renatoalunoti/public_html/banco-de-produtos/deletar.php on line 40
+[03-Feb-2017 02:09:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '<' in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 47
+[03-Feb-2017 02:10:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '<' in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 47
+[03-Feb-2017 02:11:58 America/Sao_Paulo] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 45
+[03-Feb-2017 02:12:23 America/Sao_Paulo] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 45
+[03-Feb-2017 02:14:06 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 47
+[03-Feb-2017 02:14:37 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 47
+[03-Feb-2017 02:14:38 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 47
+[03-Feb-2017 02:17:07 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 43
+[03-Feb-2017 02:17:07 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 43
+[03-Feb-2017 02:18:40 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 43
+[03-Feb-2017 02:18:40 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 43
+[03-Feb-2017 02:18:41 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 43
+[03-Feb-2017 02:18:41 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/renatoalunoti/public_html/banco-de-produtos/editar.php on line 43

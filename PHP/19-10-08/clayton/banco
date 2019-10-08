@@ -1,0 +1,12 @@
+para criar o banco
+create database bancoprodutos
+
+para criar a tabela
+
+CREATE TABLE produtos (
+cor varchar(30),
+id int primary key auto_increment,
+marca varchar(30),
+nome varchar(30),
+valor double(6,2)
+)
