@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS users(
+	  id INT PRIMARY KEY AUTO_INCREMENT,
+    name varchar(70) UNIQUE NOT NULL,
+    pass varchar(100) NOT NULL,
+    mail varchar(100) NOT NULL,
+    numb int(3) NOT NULL
+    
+)

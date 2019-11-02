@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="cyan">
+        <div class="nav-wrapper container">
+            <ul class="right">
+                <li><a href="create.html">Cadastro</a></li>
+                <li><a href="read.html">Consultar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row container">
+        <div class="form">
+            <p>&NonBreakingSpace;</p>
+    
+            <form class="col s12" action="php/read.php" method="post">
+                <fieldset class="formulario">
+                    <h5 class="center">Consultar</h5>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <label for="">Procurar</label>
+                        <input type="text" name="inputSearch" id="" autofocus>
+                    </div>
+
+                    <div class="center">
+                        <input type="submit" name="" id="" class="btn green">
+                        <input type="submit" name="" id="" class="btn red">
+                    </div>
+                </fieldset>
+            </form>
+            
+        </div>
+    </div>
+
+
+    
+
+<script src="materialize/js/jquery-3.4.1.min.js"></script>
+<script src="materialize/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+
+    });
+</script>
+</body>
+</html> 
