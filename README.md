@@ -22,13 +22,13 @@
 - Primeiro Ano - <strong> Flavia </strong>
 
 ---
-## [HTML]()
+## [HTML](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/HTML)
 
 - Primeiro Ano - <strong> Cleyton </strong> <br>
 - Segundo Ano (1 Semestre) - <strong> Pisco </strong> 
 
 ---
-## [Java]()
+## [Java](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Java)
 
 - Primeiro Ano - <strong> Flavia </strong> <br> 
 - Segundo Ano - <strong> Rodrigo / BigFrank </strong>
@@ -39,12 +39,12 @@
 - Segundo Ano (3 Bimestre) - <strong> Pisco </strong>
 
 ---
-## [PHP]()
+## [PHP](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/PHP)
 
 - Segundo Ano - <strong> Cleyton </strong>
 
 ---
-## [Pascal]()
+## [Pascal](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Pascal)
 
 - Segundo Ano - <strong> Julio </strong>
 
