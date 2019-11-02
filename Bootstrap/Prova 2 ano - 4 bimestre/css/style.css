@@ -1,0 +1,126 @@
+*{
+  --padding-div: 120px 0;
+}
+
+body{
+  background-color: #4292bf;
+}
+
+section{
+  padding: 50px;
+}
+
+/* navbar */
+.navbar{
+  padding: 12px;
+  background-color: rgb(42, 62, 89);
+  
+}
+
+.navbar ul{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar li{
+  margin: 0 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Carrousel */
+#carroselId{
+  width: 100%;
+}
+
+.carousel-item img{
+  height: 500px;
+}
+
+/* Jumbtron */
+#jumbotronId{
+  width: 100%;
+}
+/* Lista */
+#listId{
+  padding: var(--padding-div);
+  border: none;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#listId h4{
+  text-align: center;
+  color: white;
+}
+
+#listId ul{
+  margin-right: auto;
+}
+
+/* formulario */
+
+#formId{
+  padding: var(--padding-div);
+}
+#formId form{
+  box-shadow: -1px 1px 2px #404040;
+  border-radius: 40px 40px 40px 0;
+  color: white;
+  padding: 50px;
+  background-color: #39799e;
+}
+
+/* tree */
+#treeId{
+  padding: var(--padding-div);
+  text-align: center;
+}
+
+#treeId img{
+  padding-top: 10px;
+  max-width:60%;
+  max-height:40%;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#treeId h4{
+  color: white;
+}
+
+#treeId a{
+  text-decoration: none;
+  color: white;
+}
+
+#treeId button{
+  margin-top: 30px;
+  box-shadow: 0 2px 3px #404040;
+}
+
+.card{
+  width: 18rem;
+  margin: 10px;
+}
+
+/* paralax */
+#paralaxTree{
+  width: 100%;
+  height: 300px;
+  background-image: url("https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop");
+  background-position: 0 -800px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Footer */
+footer{
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(42, 62, 89);
+  text-align: center;
+}

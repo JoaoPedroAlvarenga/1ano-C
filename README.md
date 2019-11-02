@@ -1,38 +1,51 @@
----
-# Access
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/41977137/68078034-7f64e900-fdad-11e9-98cd-e2184882c3ba.png" width="240">
+</p>
+
+
+
+
+## [Access](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Access)
 
 - Segundo Ano - <b> Pisco </b> 
 
 ---
-# C
 
-- Primeiro Ano - <b> Flavia </b>
+## [Boostrap 4](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Boostrap)
 
----
-# HTML
-
-- Primeiro Ano - <b> Cleyton </b> <br>
-- Segundo Ano (1 Bimestre) - <b> Pisco </b> 
+- Segundo Ano (4 Bimestre) - <b> Pisco </b> 
 
 ---
-# Java
 
-- Primeiro Ano - <b> Flavia </b> <br> 
-- Segundo Ano - <b> Rodrigo / BigFrank </b>
+## [C](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/C)
 
----
-# JavaScript 
-
-- Segundo Ano (2 Bimestre) - <b> Pisco </b>
+- Primeiro Ano - <strong> Flavia </strong>
 
 ---
-# PHP
+## [HTML]()
 
-- Segundo Ano - <b> Cleyton </b>
+- Primeiro Ano - <strong> Cleyton </strong> <br>
+- Segundo Ano (1 Semestre) - <strong> Pisco </strong> 
 
 ---
-# Pascal
+## [Java]()
 
-- Segundo Ano - <b> Julio </b>
+- Primeiro Ano - <strong> Flavia </strong> <br> 
+- Segundo Ano - <strong> Rodrigo / BigFrank </strong>
+
+---
+## [JavaScript]()
+
+- Segundo Ano (3 Bimestre) - <strong> Pisco </strong>
+
+---
+## [PHP]()
+
+- Segundo Ano - <strong> Cleyton </strong>
+
+---
+## [Pascal]()
+
+- Segundo Ano - <strong> Julio </strong>
 
 
