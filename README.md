@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/41977137/68078034-7f64e900-fdad-11e9-98cd-e2184882c3ba.png" width="240">
+    <img src="https://user-images.githubusercontent.com/41977137/68078206-0f0b9700-fdb0-11e9-9364-d27150af29d4.png" width="300">
 </p>
 
 
@@ -34,7 +34,7 @@
 - Segundo Ano - <strong> Rodrigo / BigFrank </strong>
 
 ---
-## [JavaScript]()
+## [JavaScript](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/JavaScript/)
 
 - Segundo Ano (3 Bimestre) - <strong> Pisco </strong>
 
