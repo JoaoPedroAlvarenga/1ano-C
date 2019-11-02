@@ -11,7 +11,7 @@
 
 ---
 
-## [Boostrap 4](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Boostrap)
+## [Bootstrap 4](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Bootstrap)
 
 - Segundo Ano (4 Bimestre) - <b> Pisco </b> 
 
