@@ -1,0 +1,29 @@
+V1
+CREATE TABLE IF NOT EXISTS usuario(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    name varchar(30) NOT NULL UNIQUE,
+    mail varchar(30) NOT NULL UNIQUE,
+    pass varchar(30) NOT NULL,
+    estado varchar(5) NOT NULL,
+    sexo varchar(30) NOT NULL 
+)
+
+V2
+CREATE TABLE IF NOT EXISTS usuario(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    name varchar(30) NOT NULL,
+    mail varchar(30) NOT NULL,
+    pass varchar(30) NOT NULL,
+    estado varchar(30) NOT NULL,
+    sexo varchar(30) NOT NULL
+)
+
+V3
+CREATE TABLE IF NOT EXISTS usuario(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    name varchar(30) NOT NULL,
+    mail varchar(30) NOT NULL,
+    pass varchar(100) NOT NULL,
+    estado varchar(5) NOT NULL,
+    sexo varchar(30) NOT NULL
+)

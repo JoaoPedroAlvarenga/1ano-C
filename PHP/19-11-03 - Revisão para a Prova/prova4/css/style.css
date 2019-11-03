@@ -1,0 +1,54 @@
+* {
+  --purple-color: rgb(98, 0, 255);
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
+.navbar {
+  background-color: var(--purple-color);
+  padding: 10px;
+}
+
+.navbar ul {
+  margin: auto;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+/* Formulario */
+
+#formulario {
+  margin: 100px;
+}
+
+#formulario h2 {
+  text-align: center;
+}
+
+#formulario input {
+  border-radius: 8px;
+}
+
+/* Botao */
+
+.btn-custom {
+  color: #fff;
+  background-color: var(--purple-color);
+}
+
+.btn-custom:hover {
+  color: var(--purple-color);
+  background-color: #fff;
+  box-shadow: 0 2px 8px black;
+}
+
+.buttom-center{
+  text-align: center;
+}
