@@ -12,3 +12,8 @@
 ## [Instagram](https://www.instagram.com/teamtreesofficial/)
 ## [Twitter](https://twitter.com/teamtreesofficl)
 ## [Facebook](https://www.facebook.com/teamtreesofficial/)
+
+![dwdw](https://teamtrees.org/images/counter-starburst-blue.svg)
+
+![dwdw](https://teamtrees.org/images/background-hero-scene-short-more-trees.svg)
+
