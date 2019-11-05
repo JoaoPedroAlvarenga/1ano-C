@@ -1,0 +1,8 @@
+
+CREATE  - INSERT INTO $tabela (mail, pass) VALUES('$mail', '$pass');
+
+READ    - SELECT * FROM $tabela WHERE $choice LIKE '% $text %';
+
+UPDATE  - UPDATE $tabela SET $choice = $text WHERE id = $id;
+
+DELETE  - DELETE FROM $tabela WHERE id = $id;
