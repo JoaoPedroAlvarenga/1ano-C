@@ -7,13 +7,13 @@
 
 ## [Access](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Access)
 
-- Segundo Ano - <b> Pisco </b> 
+- Segundo Ano - <b> Leandro Pisco </b> 
 
 ---
 
 ## [Bootstrap 4](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Bootstrap)
 
-- Segundo Ano (4 Bimestre) - <b> Pisco </b> 
+- Segundo Ano (4 Bimestre) - <b> Leandro Pisco </b> 
 
 ---
 
@@ -24,24 +24,25 @@
 ---
 ## [HTML](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/HTML)
 
-- Primeiro Ano - <strong> Cleyton </strong> <br>
-- Segundo Ano (1 Semestre) - <strong> Pisco </strong> 
+- Primeiro Ano - <strong> Clayton Oliveira </strong> <br>
+- Segundo Ano (1 Semestre) - <strong> Leandro Pisco </strong> 
 
 ---
 ## [Java](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Java)
 
 - Primeiro Ano - <strong> Flavia </strong> <br> 
-- Segundo Ano - <strong> Rodrigo / BigFrank </strong>
+- Segundo Ano (1 Semestre) - <strong> Rodrigo </strong>
+- Segundo Ano (2 Semestre) - <strong> Franklin </strong>
 
 ---
 ## [JavaScript](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/JavaScript/)
 
-- Segundo Ano (3 Bimestre) - <strong> Pisco </strong>
+- Segundo Ano (3 Bimestre) - <strong> Leandro Pisco </strong>
 
 ---
 ## [PHP](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/PHP)
 
-- Segundo Ano - <strong> Cleyton </strong>
+- Segundo Ano - <strong> Clayton Oliveira </strong>
 
 ---
 ## [Pascal](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Pascal)
