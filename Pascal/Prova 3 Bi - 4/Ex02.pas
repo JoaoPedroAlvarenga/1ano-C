@@ -1,4 +1,0 @@
-Program Pzim ;
-Begin
-  
-End.
