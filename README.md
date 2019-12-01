@@ -19,7 +19,7 @@
 
 ## [C](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/C)
 
-- Primeiro Ano - <strong> Flavia </strong>
+- Primeiro Ano - <strong> Flavia G. </strong>
 
 ---
 ## [HTML](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/HTML)
