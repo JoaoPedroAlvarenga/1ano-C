@@ -47,6 +47,6 @@
 ---
 ## [Pascal](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Pascal)
 
-- Segundo Ano - <strong> Julio </strong>
+- Segundo Ano - <strong> Julio Vianna </strong>
 
 
