@@ -30,7 +30,7 @@
 ---
 ## [Java](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Java)
 
-- Primeiro Ano - <strong> Flavia </strong> <br> 
+- Primeiro Ano - <strong> Flavia G. </strong> <br> 
 - Segundo Ano (1 Semestre) - <strong> Rodrigo Cruz </strong>
 - Segundo Ano (2 Semestre) - <strong> Franklin </strong>
 
