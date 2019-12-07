@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Aula 1 B | Js - JAVA Script</title>
 	<meta charset="utf-8">
 	<style type="text/css">
-		body{
+		body {
 			background-color: purple;
 			text-align: center;
 			color: white;
@@ -12,18 +13,20 @@
 		}
 	</style>
 </head>
+
 <body>
 	<script type="text/javascript">
-		nota1 = parseFloat(window.prompt("Digite nota 1:"))
-		nota2 = parseFloat(window.prompt("Digite nota 2:"))
-		nota3 = parseFloat(window.prompt("Digite nota 3:"))
-		nota4 = parseFloat(window.prompt("Digite nota 4:"))
+		const nota1 = parseFloat(window.prompt("Digite nota 1"))
+		const nota2 = parseFloat(window.prompt("Digite nota 2"))
+		const nota3 = parseFloat(window.prompt("Digite nota 3"))
+		const nota4 = parseFloat(window.prompt("Digite nota 4"))
 
-		media = (nota1 + nota2 + nota3 + nota4) / 4
+		const media = (nota1 + nota2 + nota3 + nota4) / 4
 
 		document.write("Média: " + media)
 
 	</script>
 
 </body>
+
 </html>

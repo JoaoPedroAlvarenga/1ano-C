@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html>
 <!-- Leia dois valores e mostre o maior entre eles -->
+
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Aula 2 A | Js - Java Script</title>
 	<meta charset="utf-8">
-	<style type="text/css">
-		body{
-			background-color: purple;
-			text-align: center;
-			color: white;
-			font-size: 77px;
-			font-family: cursive;
-		}
-	</style>
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+	<div class="app">
+
+	</div>
 	<script type="text/javascript">
-		function maior_menor(numero) {
-			n = numero
-			if (i == 0) {
-				maior = n
-				menor = n
-			} else {
-				if (n > maior) {
-					maior = n
-				}
-				if (n < menor) {
-					menor = n
-				}
+		const appElement = document.querySelector('#app')
+
+		function ask_prompt(quantidade) {
+			console.log('Função iniciada: ', quantidade);
+
+			for (let i = 1; i <= quantidade; i++) {
+				console.log('-'.repeat(10));
+
+				let numero = parseFloat(window.prompt("Digite um numero [" + (i) + "]"))
+
+
 			}
+
+
+
 		}
-		const quantidade = 2
+		ask_prompt(2)
 
-		for (var i = 0; i < quantidade; i++) {
-			n = parseFloat(window.prompt("Digite um numero [" + (i + 1) + "]"))
-
-			maior_menor(n);
+		if (i == 1) {
+			let maior = numero
+			let menor = numero
 		}
-		document.write("Maior: " + maior)
-		document.write("<br>")
-		document.write("Menor: " + menor)
-		
 
+		if (numero >= maior)
+			maior = numero
+		if (numero <= menor)
+			menor = numero
+
+
+		console.log('i: ', i);
+		console.log('Numero: ', numero);
+		console.log('Maior : ', maior);
+		console.log('Menor : ', menor);
 	</script>
 
 </body>
+
 </html>
