@@ -19,7 +19,7 @@
 
 ## [C](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/C)
 
-- Primeiro Ano - <strong> Flavia </strong>
+- Primeiro Ano - <strong> Flavia G. </strong>
 
 ---
 ## [HTML](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/HTML)
@@ -30,8 +30,8 @@
 ---
 ## [Java](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Java)
 
-- Primeiro Ano - <strong> Flavia </strong> <br> 
-- Segundo Ano (1 Semestre) - <strong> Rodrigo </strong>
+- Primeiro Ano - <strong> Flavia G. </strong> <br> 
+- Segundo Ano (1 Semestre) - <strong> Rodrigo Cruz </strong>
 - Segundo Ano (2 Semestre) - <strong> Franklin </strong>
 
 ---
@@ -47,6 +47,6 @@
 ---
 ## [Pascal](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Pascal)
 
-- Segundo Ano - <strong> Julio </strong>
+- Segundo Ano - <strong> Julio Vianna </strong>
 
 
