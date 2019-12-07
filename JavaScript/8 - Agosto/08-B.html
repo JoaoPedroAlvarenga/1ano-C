@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html>
 <!-- Leia dois valores e mostre o maior entre eles -->
+
 <head>
 	<title>Aula 2 C | Js - Java Script</title>
 	<meta charset="utf-8">
-	<style type="text/css">
-		body{
-			padding-top: 7%;
-			background-color: purple;
-			text-align: center;
-			color: white;
-			font-size: 35px;
-			font-family: cursive;
-		}
-	</style>
+	<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-	<label>Nota 1 <br>
-		<input type="number" id="n1"><br>
-	</label>
+	<label>Nota 1</label>
+	<input type="number" id="number1"><br>
 
-	<label>Nota 2 <br>
-		<input type="number" id="n2"><br>
-	</label>
-	
-	<label>Nota 3 <br>
-		<input type="number" id="n3"><br>
-	</label>
-	
-	<label>Nota 4 <br>
-		<input type="number" id="n4"><br>
-	</label>
+	<label>Nota 2</label>
+	<input type="number" id="number2"><br>
 
-	<button onclick="calc()"> Aperte isso Gora da Silva </button>
+	<label>Nota 3</label>
+	<input type="number" id="number3"><br>
+
+	<label>Nota 4</label>
+	<input type="number" id="number4"><br>
+
+	<p>
+		<button id='btn'> Calcular Média </button>
+	</p>
+
+	<hr>
+	<input type="number" id="media" readonly><br>
+	<hr>
 
 
 	<script type="text/javascript">
-		function calc() {
-			var n1 = document.querySelector('#n1').value;
-			var n2 = document.querySelector('#n2').value;
-			var n3 = document.querySelector('#n3').value;
-			var n4 = document.querySelector('#n4').value;
+		const numberElement1 = document.querySelector('#number1');
+		const numberElement2 = document.querySelector('#number2');
+		const numberElement3 = document.querySelector('#number3');
+		const numberElement4 = document.querySelector('#number4');
+		const mediaElement = document.querySelector('#media')
+		const btn = document.querySelector('button#btn')
 
-			console.log(n1);
-
-			var media = parseFloat( (n1 + n2 + n3 + n4) / 4);
-
-			alert("Media: " + media);
+		btn.onclick = function () {
+			const numberValue1 = parseInt(numberElement1.value)
+			const numberValue2 = parseInt(numberElement2.value)
+			const numberValue3 = parseInt(numberElement3.value)
+			const numberValue4 = parseInt(numberElement4.value)
+			const soma = numberValue1 + numberValue2 + numberValue3 + numberValue4
+			const media = soma / 4
+			mediaElement.value = media
 		}
 	</script>
 </body>
+
 </html>

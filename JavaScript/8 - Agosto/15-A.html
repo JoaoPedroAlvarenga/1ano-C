@@ -1,59 +1,58 @@
 <!DOCTYPE html>
 <html>
 <!-- Leia dois valores e mostre o maior entre eles -->
+
 <head>
 	<title>Aula 2 B | Js - Java Script</title>
 	<meta charset="utf-8">
-	<style type="text/css">
-		body{
-			padding-top: 2%;
-			background-color:steelblue;
-			text-align: center;
-			color: white;
-			font-size: 35px;
-			font-family: Arial, Helvetica, sans-serif;
-		}
 
-	</style>
+
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<script type="text/javascript">
 
-		function calcSalario(){
-			var valor = document.getElementById("vlr_hora").value;
-			console.log(valor);
+	<div class="app">
+		<p>
+			<label>Valor da hora tra</label></br>
+			<input type="number" id="valuePerHour">
+		</p>
 
-			var quantidade = document.getElementById("qnt_hora").value;
-			console.log(quantidade);
+		<p>
+			<label>Quantidade de horas </label></br>
+			<input type="number" id="amountOfHours">
+		</p>
 
-			var salario = valor * quantidade;
-			console.log(salario);
+		<p>
+			<label>Quantidade de dias tra</label></br>
+			<input type="number" id="numberOfDays">
+		</p>
 
-			window.alert("Salario: " + salario);
+		<hr>
+		<p>
+			<button id="btn">Calcula ai meu consagra</button>
+		</p>
+	</div>
+
+	<script>
+		const valuePerHourElement = document.querySelector("#valuePerHour");
+		const amountOfHoursElement = document.querySelector("#amountOfHours");
+		const numberOfDaysElement = document.querySelector('#numberOfDays')
+		const btnElement = document.querySelector('button#btn')
+
+		btnElement.onclick = function () {
+			const valuePerHourValue = parseFloat(valuePerHourElement.value)
+			const amountOfHoursValue = parseFloat(amountOfHoursElement.value)
+			const numberOfDaysValue = parseFloat(numberOfDaysElement.value)
+			const salary = valuePerHourValue * amountOfHoursValue * numberOfDaysValue
+
+			const salaryString = `Salario: R$ ${salary}.00`
+			window.alert(salaryString)
+
+
+
 		}
-		
-		console.log("Teste");
 	</script>
-	<form>
-		<hr>
-
-		<label>Valor da hora trabalhada <br>
-			<input type="number" name="vlr_hora" id="vlr_hora" >
-		</label><br><br>
-
-		<label>Quantidade de horas <br>
-			<input type="number" name="qnt_hora" id="qnt_hora" >
-		</label><br><br>
-
-		<label>Quantidade de dias trabalhados <br>
-			<input type="number" name="day" id="day" required>
-		</label><br><br>
-		
-		<hr>
-		<button id="calcular" onclick="calcSalario()">Calcula ai meu consagra</button>
-	</form>
-	
-
-
 </body>
+
 </html>
