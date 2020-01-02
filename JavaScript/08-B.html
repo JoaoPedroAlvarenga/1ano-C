@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<!-- Leia dois valores e mostre o maior entre eles -->
+
+<head>
+	<title>Aula 2 C | Js - Java Script</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<label>Nota 1</label>
+	<input type="number" id="number1"><br>
+
+	<label>Nota 2</label>
+	<input type="number" id="number2"><br>
+
+	<label>Nota 3</label>
+	<input type="number" id="number3"><br>
+
+	<label>Nota 4</label>
+	<input type="number" id="number4"><br>
+
+	<p>
+		<button id='btn'> Calcular Média </button>
+	</p>
+
+	<hr>
+	<input type="number" id="mean" readonly><br>
+	<hr>
+
+
+	<script type="text/javascript">
+		const $ = _ => document.querySelector(_)
+
+		$('button#btn').onclick = function () {
+			const number1 = parseFloat($('#number1').value)
+			const number2 = parseFloat($('#number2').value)
+			const number3 = parseFloat($('#number3').value)
+			const number4 = parseFloat($('#number4').value)
+
+			const sum = number1 + number2 + number3 + number4
+			const mean = sum / 4
+			$('#mean').value = mean
+		}
+	</script>
+</body>
+
+</html>
