@@ -1,6 +1,6 @@
 # Site para auxiliar na divulgacão do projeto...
 
-![dwdw](https://teamtrees.org/images/social-share-earth-astronaut-1-9x1.png)
+![TeamTrees](https://user-images.githubusercontent.com/41977137/72029223-0463f700-3264-11ea-82ab-8166bfa893cf.png)
 
 ### Este site foi criado durante o estudo para a prova de Boostrap do quarto bimestre do segundo ano da escola Rezende Rammel
 
