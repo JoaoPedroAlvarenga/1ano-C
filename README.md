@@ -2,51 +2,58 @@
     <img src="https://user-images.githubusercontent.com/41977137/68078206-0f0b9700-fdb0-11e9-9364-d27150af29d4.png" width="300">
 </p>
 
-
-
-
 ## [Access](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Access)
 
-- Segundo Ano - <b> Leandro Pisco </b> 
+- 2º Ano - <b> Leandro Pisco </b>
 
 ---
 
 ## [Bootstrap 4](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Bootstrap)
 
-- Segundo Ano (4 Bimestre) - <b> Leandro Pisco </b> 
+- 2º Ano ( 4º Bimestre ) - <b> Leandro Pisco </b>
 
 ---
 
 ## [C](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/C)
 
-- Primeiro Ano - <strong> Flavia G. </strong>
+- 1º Ano - <strong> Flavia G. </strong>
 
 ---
+
+## [Cisco Package Tracer](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/CiscoPackageTracer)
+
+- 3º Ano - <strong> Wagner </strong>
+
+---
+
 ## [HTML](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/HTML)
 
-- Primeiro Ano - <strong> Clayton Oliveira </strong> <br>
-- Segundo Ano (1 Semestre) - <strong> Leandro Pisco </strong> 
+- 1º Ano - <strong> Clayton Oliveira </strong> <br>
+- 2º Ano (1º Semestre) - <strong> Leandro Pisco </strong>
 
 ---
+
 ## [Java](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Java)
 
-- Primeiro Ano - <strong> Flavia G. </strong> <br> 
-- Segundo Ano (1 Semestre) - <strong> Rodrigo Cruz </strong>
-- Segundo Ano (2 Semestre) - <strong> Franklin </strong>
+- 1º Ano - <strong> Flavia G. </strong> <br>
+- 2º Ano (1º Semestre) - <strong> Rodrigo Cruz </strong>
+- 2º Ano (2º Semestre) - <strong> Franklin </strong>
 
 ---
+
 ## [JavaScript](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/JavaScript/)
 
-- Segundo Ano (3 Bimestre) - <strong> Leandro Pisco </strong>
+- 2º Ano (3º Bimestre) - <strong> Leandro Pisco </strong>
 
 ---
+
 ## [PHP](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/PHP)
 
-- Segundo Ano - <strong> Clayton Oliveira </strong>
+- 2º Ano - <strong> Clayton Oliveira </strong>
+- 3º Ano - <strong> Leandro Pisco </strong>
 
 ---
+
 ## [Pascal](https://github.com/JoaoPedroAlvarenga/RezendeRammel_lessons/tree/master/Pascal)
 
-- Segundo Ano - <strong> Julio Vianna </strong>
-
-
+- 2º Ano - <strong> Julio Vianna </strong>
