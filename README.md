@@ -38,6 +38,7 @@
 - 1º Ano - <strong> Flavia G. </strong> <br>
 - 2º Ano (1º Semestre) - <strong> Rodrigo Cruz </strong>
 - 2º Ano (2º Semestre) - <strong> Franklin Alcantara </strong>
+- 3º Ano - <strong> Franklin Alcantara </strong>
 
 ---
 
