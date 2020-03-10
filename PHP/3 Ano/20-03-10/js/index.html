@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  label {
+    margin: 10px;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+
+  .container {
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  #mostarNumeros {
+
+  }
+</style>
+
+<body>
+
+  <div class="container">
+
+    <label for="name">Nome</label>
+    <input type="text" id="name" value="Pedro">
+
+    <label for="name">Quantidade de vezes</label>
+    <input type="number" id="number" value="10">
+
+
+    <button id="btn">Mostrar</button>
+    <div id="mostarNumeros"></div>
+
+  </div>
+  <script>
+    const name = document.querySelector('#name');
+    const number = document.querySelector('#number');
+    const btn = document.querySelector('#btn');
+
+    function for_do_pisco() {
+      const nameValue = name.value
+      const numberValue = number.value
+
+      for (let index = 0; index < numberValue; index++) {
+        console.log(nameValue);
+      }
+      alert(`o nome ${nameValue} foi mostrado ${numberValue} vezes no console`)
+
+    }
+
+    btn.addEventListener('click', for_do_pisco);
+
+  </script>
+</body>
+
+</html>
