@@ -1,15 +1,15 @@
-# Trabalho que o pisco passou na aula 
-Dia 10/03/2020
+# Trabalho de PHP em 10 linguagens :D
+10/03/2020
 
-## 10 Linguagens 
+## Linguagens 
 
 - [ ] C
-- [ ] Dart
+- [x] Dart
 - [ ] Go
 - [ ] Java
 - [x] JavaScript
 - [ ] Kotlin
-- [ ] Pascal
+- [x] Pascal
 - [ ] PHP
 - [x] Python
 - [ ] Ruby
