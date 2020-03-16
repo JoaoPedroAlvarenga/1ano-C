@@ -23,7 +23,7 @@ package etrr.pedro_lucas.filewritterexe;
 		Scanner sc = new Scanner(System.in);
 	
 
-			System.out.println("Digite um número: ");
+			System.out.println("Digite um nï¿½mero: ");
 		
 				try {
 			

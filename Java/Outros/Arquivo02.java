@@ -10,15 +10,15 @@ import java.util.Scanner;
 public class Arquivo02 {
 	
 	File file = new File("C:\\Trabalhos-Lucas\\eclipse-files\\informacoes02.txt"); 
-	//Passar o arquivo de texto caso ele seja usado o mesmo diretório mais de uma vez;
+	//Passar o arquivo de texto caso ele seja usado o mesmo diretï¿½rio mais de uma vez;
 	
 	/*public void salvar() {
 		
-		String[] info = new String[4]; //Váriavel para passar os valores
+		String[] info = new String[4]; //Vï¿½riavel para passar os valores
 		
 		try {
 			FileWriter fw = new FileWriter(file); //Ler o Arquivo
-			Scanner sc = new Scanner(System.in); //Habilita ao console a permissão
+			Scanner sc = new Scanner(System.in); //Habilita ao console a permissï¿½o
 			
 			System.out.println("Digite: ");
 			
@@ -44,7 +44,7 @@ public class Arquivo02 {
 			BufferedReader bf = new BufferedReader(fr);
 			Scanner sc = new Scanner(System.in);
 			
-			System.out.print("Digite o número (1-4) desejável para a transferência: ");
+			System.out.print("Digite o nï¿½mero (1-4) desejï¿½vel para a transferï¿½ncia: ");
 			int num = sc.nextInt(); //Uso do scanner;
 			
 			//System.out.println("Transferindo dados... \n");
