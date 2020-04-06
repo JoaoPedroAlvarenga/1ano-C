@@ -50,7 +50,9 @@
     $number = $_POST('#number');
     $btn = $_POST('#btn');
 
-    echo($name)
+    for ($i=0; $i < $number ; $i++) { 
+      echo($name)
+    }
 
 
   ?>
