@@ -42,8 +42,6 @@
     $result =  $puchaseAmount - ($puchaseAmount * $discount[$paymentMethod]);
 
     if (isset($puchaseAmount) && isset($paymentMethod)) {
-      echo $discount[0];
-
       echo '<p class="discountValue">';
       switch ($paymentMethod) {
         case "vista":
