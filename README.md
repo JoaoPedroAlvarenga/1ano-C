@@ -25,7 +25,7 @@
 
 ---
 
-## [Cisco Package Tracer](https://github.com/RezendeRammel/RezendeRammel/tree/master/CiscoPackageTracer)
+## [Cisco Packet Tracer](https://github.com/RezendeRammel/RezendeRammel/tree/master/CiscoPackageTracer)
 
 - 3º Ano - <strong> Wagner </strong>
 
