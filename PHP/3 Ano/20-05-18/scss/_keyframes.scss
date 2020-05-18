@@ -1,0 +1,42 @@
+@keyframes php1 {
+  0% {
+    filter: blur(20px);
+    left: -100px;
+  }
+
+  10% {
+    filter: blur(0) invert(100%);
+    transform: rotateZ(0deg);
+  }
+
+  90% {
+    filter: blur(0) saturate(8);
+  }
+
+  100% {
+    filter: blur(20px);
+    left: 100%;
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes php2 {
+  0% {
+    filter: blur(20px);
+    right: -100px;
+    transform: rotate3d(1, 1, 1, calc(360deg * 4));
+  }
+
+  10% {
+    filter: blur(0) brightness(200%);
+  }
+
+  90% {
+    filter: blur(0) brightness(70%);
+  }
+
+  100% {
+    filter: blur(20px);
+    right: 100%;
+  }
+}

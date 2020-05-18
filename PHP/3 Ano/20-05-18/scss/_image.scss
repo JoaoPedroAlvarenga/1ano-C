@@ -1,0 +1,22 @@
+@import 'keyframes';
+
+.images {
+  img {
+    position: absolute;
+    width: 100px;
+  }
+
+  .img0 {
+    top: 100px;
+    animation: php0 9.5s infinite linear;
+  }
+  .img1 {
+    top: 300px;
+    animation: php1 5.5s infinite linear;
+  }
+
+  .img2 {
+    bottom: 270px;
+    animation: php2 10s infinite linear;
+  }
+}
