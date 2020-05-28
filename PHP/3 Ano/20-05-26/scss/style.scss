@@ -16,13 +16,12 @@ aside.locadora {
   height: 100vh;
   border-right: 2px solid rgba($color: black, $alpha: 0.2);
   position: fixed;
-  
 
   form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     padding: 0 40px;
     width: 340px;
     background-color: rgba($color: #fdfbfb, $alpha: 0.8);
@@ -89,16 +88,18 @@ aside.locadora {
   }
 }
 
+$horizontal: 70px;
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1400px;
+
   width: 100%;
-  margin: 40px 0 auto 400px;
+  margin: 40px $horizontal auto 340px + $horizontal;
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
+    letter-spacing: 2px;
     color: white;
     margin-bottom: 20px;
   }
@@ -106,22 +107,36 @@ section {
   table {
     width: 100%;
     color: black;
+    background-color: white;
+    margin-bottom: 50px;
   }
 
   table,
   th,
   td {
-    border: 1px solid rgba($color: black, $alpha: 0.2);
+    border: 1px solid #627eb6;
     border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 5px 20px;
   }
 
   th {
     text-align: left;
   }
+
+  td{
+    a.btn-delete{
+      text-decoration: none;
+      color: #ff0000;
+    }
+  }
   
-  th,
-  td {
-    padding: 5px 20px;
+  td:last-child{
+    text-align: center;
+
   }
 
 }
