@@ -15,19 +15,19 @@
       <h1>Lo<span>car</span>dora</h1>
 
       <label for="">Modelo</label>
-      <input type="text" name="model" id="model" placeholder="S">
+      <input type="text" name="model" id="model" placeholder="S" required>
 
       <label for="">Marca</label>
-      <input type="text" name="brand" id="brand" placeholder="Tesla">
+      <input type="text" name="brand" id="brand" placeholder="Tesla" required>
 
       <label for="">Preco</label>
-      <input type="number" name="price" id="price" placeholder="50.200" step="0.001">
+      <input type="number" name="price" id="price" placeholder="50.200" required step="0.001">
 
       <label for="">Ano</label>
-      <input type="number" name="year" id="year" placeholder="2017" min="1769" max="2022">
+      <input type="number" name="year" id="year" placeholder="2017" required min="1769" max="2022">
 
       <label for="">Cor</label>
-      <input type="text" name="color" id="color" placeholder="Roxo">
+      <input type="text" name="color" id="color" placeholder="Roxo" required>
 
       <button type="submit">Cadastrar</button>
     </form>
