@@ -110,7 +110,7 @@
     }
   ]
 
-  addCars(cars[0])
+  // addCars(cars[0])
 </script>
 
 </html>
