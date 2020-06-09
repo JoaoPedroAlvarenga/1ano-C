@@ -52,8 +52,44 @@
       <button><i class="fa fa-search" aria-hidden="true"></i></button>
     </form>
 
+    <?php
+    include_once "./php/connect.php";
+    $searchText = $_POST['search'];
+    $options = $_POST['options'];
+
+    // TODO: Arrumar está coisa horrivel depois
+    if (isset($options)) {
+      if ($options == "id" || $options == "price" || $options == "carYear") {
+        $sqlRead = "SELECT * FROM $table WHERE $options LIKE '$searchText';";
+        $sqlCount =  "SELECT COUNT(*) as total FROM $table WHERE $options LIKE '$searchText';";
+      } else {
+        $sqlRead = "SELECT * FROM $table WHERE $options LIKE '$searchText%';";
+        $sqlCount =  "SELECT COUNT(*) as total FROM $table WHERE $options LIKE '$searchText%';";
+      }
+    } else {
+      $sqlRead = "SELECT *  FROM $table";
+      $sqlCount =  "SELECT COUNT(*) as total FROM $table";
+    }
+
+    $queryRead = mysqli_query($connect, $sqlRead);
+    $queryCount = mysqli_query($connect, $sqlCount);
+
+    $searchTotal = mysqli_fetch_assoc($queryCount)['total'];
+    echo "<p class='query'>$searchTotal encontrados</p>";
+    // echo "<p class='query'>$sqlRead </p>";
+    // echo "<p class='query'>$sqlCount </p>";
+    $searchData = [];
+    if ($queryRead->num_rows > 0) {
+      while ($row = mysqli_fetch_assoc($queryRead)) {
+        $searchData[] = $row;
+      }
+    } else {
+      echo "Nada encontrado";
+    }
+    ?>
+
     <table>
-      <tr>
+      <thead>
         <th>Código</th>
         <th>Modelo</th>
         <th>Marca</th>
@@ -61,95 +97,26 @@
         <th>Ano</th>
         <th>Cor</th>
         <th></th>
-      </tr>
-
-      <?php
-      include_once "./php/connect.php";
-      $searchText = $_POST['search'];
-      $options = $_POST['options'];
-
-      // TODO: Arrumar está coisa horrivel depois
-      if (isset($options)) {
-        if ($options == "id" || $options == "price" || $options == "carYear") {
-          $sqlRead = "SELECT * FROM $table WHERE $options LIKE '$searchText';";
-          $sqlCount =  "SELECT COUNT(*) as total FROM $table WHERE $options LIKE '$searchText';";
-        } else {
-          $sqlRead = "SELECT * FROM $table WHERE $options LIKE '$searchText%';";
-          $sqlCount =  "SELECT COUNT(*) as total FROM $table WHERE $options LIKE '$searchText%';";
-        }
-      } else {
-        $sqlRead = "SELECT * FROM $table FROM $table";
-        $sqlCount =  "SELECT COUNT(*) as total FROM $table";
-      }
-
-      $queryRead = mysqli_query($connect, $sqlRead);
-      $queryCount = mysqli_query($connect, $sqlCount);
-
-      $searchTotal = mysqli_fetch_assoc($queryCount)['total'];
-      echo "<p class='query'>$searchTotal encontrados</p>";
-
-      while ($row = mysqli_fetch_array($queryRead)) {
-        $id = $row['id'];
-        echo "<tr>";
-        echo "<td>" . $row['id'] . "</td>";
-        echo "<td>" . $row['model'] . "</td>";
-        echo "<td>" . $row['brand'] . "</td>";
-        echo "<td>" . $row['price'] . "</td>";
-        echo "<td>" . $row['carYear'] . "</td>";
-        echo "<td>" . $row['color'] . "</td>";
-        echo  "<td><a class='btn-delete' href='./php/delete.php?id=$id'><i class='fas fa-trash'></i></a> </td>";
-        echo "</tr>";
-      }
-      ?>
-
+      </thead>
+      <tbody>
+        <?php foreach ($searchData as $value) : ?>
+          <tr>
+            <td><?= $value['id'] ?> </td>
+            <td><?= $value['model'] ?> </td>
+            <td><?= $value['brand'] ?> </td>
+            <td><?= $value['price'] ?> </td>
+            <td><?= $value['carYear'] ?> </td>
+            <td><?= $value['color'] ?> </td>
+            <td><a class='btn-delete' href='./php/delete.php?id=<?=$value['id']?>'><i class='fas fa-trash'></i></a></td>
+          </tr>
+        <?php endforeach ?>
+      </tbody>
     </table>
   </section>
 
-
-
 </body>
-<script>
-  const query = _ => document.querySelector(_);
-
-  function addCars({
-    model,
-    brand,
-    price,
-    year,
-    color
-  }) {
-    query('#model').value = model
-    query('#brand').value = brand
-    query('#price').value = price
-    query('#year').value = year
-    query('#color').value = color
-  }
-
-  const cars = [{
-      model: "X",
-      brand: "Tesla",
-      price: "50.000",
-      year: "2020",
-      color: "Roxo"
-    },
-    {
-      model: "Y",
-      brand: "Honda",
-      price: "80.000",
-      year: "2019",
-      color: "Vermelho"
-    },
-    {
-      model: "Z",
-      brand: "Ford",
-      price: "100.000",
-      year: "2018",
-      color: "Azul"
-    }
-  ]
-
-  addCars(cars[2])
-</script>
+<script src="./js/addInput.js"></script>
+<script src="./js/data.js"></script>
 <script src="https://kit.fontawesome.com/1e26d1774e.js" crossorigin="anonymous"></script>
 
 </html>
