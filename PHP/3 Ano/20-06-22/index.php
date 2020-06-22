@@ -19,10 +19,10 @@ session_start();
     <form method="POST" action="./php/signin.php">
       <h1>Sign in</h1>
       <label for="login">Login</label>
-      <input type="text" name="username" value="jo" id="" placeholder="your login">
+      <input type="text" name="username" id="" placeholder="your login">
 
       <label for="password">Password</label>
-      <input type="password" name="password" value="jo" id="" placeholder="your password">
+      <input type="password" name="password" id="" placeholder="your password">
 
       <?php if (isset($_SESSION['unauthorized_password'])) : ?>
         <p class="login login-erro">Senha inválida</p>
