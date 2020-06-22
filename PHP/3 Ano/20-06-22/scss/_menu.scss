@@ -3,9 +3,9 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: black;
-  font-family: 'MuseoModerno', cursive;
+  font-family: "MuseoModerno", cursive;
 
-  div.img-background{
+  div.img-background {
     height: 100vh;
     width: 100%;
     z-index: -2;
@@ -13,11 +13,11 @@ body {
     background-image: url("../static/assets/mohammad-alizade-62t_kKa2YlA-unsplash.jpg");
     background-color: white;
     background-size: cover;
-  
+
     filter: blur(0px);
   }
-  
-  div.img-background.blur{
+
+  div.img-background.blur {
     filter: blur(10px);
   }
 }
@@ -29,11 +29,21 @@ section {
   flex-direction: column;
   height: 100vh;
 
-  h1{
+  h1 {
     margin: 0 0 20px;
     font-size: 2.4rem;
     color: white;
+    a{
+      color: #fff;
+      background-color: #F24224;
+      padding: 0 40px;
+      border-radius: 20px;
+      text-decoration: none;
+    }
   }
+
+  
+  
 }
 
 form {
@@ -43,10 +53,9 @@ form {
 
   width: 340px;
   padding: 40px 30px;
-  
+
   background-color: rgba($color: #404040, $alpha: 0.6);
   border-radius: 10px;
-
 
   label {
     color: white;
@@ -67,9 +76,25 @@ form {
     border-left: 6px solid #4224f2;
   }
 
+  p.login {
+    padding: 2px 0;
+    margin: 16px 0 0;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  p.login-erro {
+    background-color: #f24224;
+  }
+
+  p.login-ok {
+    background-color: #24f242;
+  }
+
   button {
     height: 48px;
-    margin: 40px 0 0;
+    margin: 30px 0 0;
 
     border: none;
     font-size: 1.2rem;
@@ -77,46 +102,44 @@ form {
     border-radius: 4px;
   }
 
-  button + button{
+  button + button {
     margin-top: 20px;
   }
 
-  button.btn-signin{
+  button.btn-signin {
     color: white;
     background: rgba($color: #4224f2, $alpha: 1);
-  
-    &:hover{
+
+    &:hover {
       background: rgba($color: #7e68ff, $alpha: 0.8);
-      
     }
   }
-  
-  button.btn-signup{
+
+  button.btn-signup {
     color: white;
     background-color: transparent;
 
     border: 3px solid white;
-    
-    &:hover{
+
+    &:hover {
       // color: black;
       border: 3px solid transparent;
       background: rgba($color: #7e68ff, $alpha: 1);
-      
     }
   }
 
-  p{
+  p {
     color: white;
 
-    a{
+    a {
       font-weight: bold;
     }
 
-    a.signup{
-      color: #D4F224;
+    a.signup {
+      color: #d4f224;
     }
-    a.signin{
-      color: #24F242;
+    a.signin {
+      color: #24f242;
     }
   }
 }
