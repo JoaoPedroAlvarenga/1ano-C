@@ -1,0 +1,1 @@
+<p align="center"><img width="50%" src="./.github/não_aguentei,_desculpa_eu_do_futuro.jpeg" /></p>
