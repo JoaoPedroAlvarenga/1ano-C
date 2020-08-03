@@ -1,0 +1,26 @@
+
+
+section.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      padding: 10px 0 5px;
+    }
+
+    input,
+    select {
+      padding: 7px;
+    }
+
+    button {
+      padding: 7px;
+      margin-top: 20px;
+    }
+  }
+}
