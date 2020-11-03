@@ -27,7 +27,7 @@
 
 ## [Cisco Packet Tracer](https://github.com/RezendeRammel/RezendeRammel/tree/master/CiscoPackageTracer)
 
-- 3º Ano - <strong> Wagner </strong>
+- 3º Ano - <strong> Wagner Santos </strong>
 
 ---
 
@@ -50,6 +50,7 @@
 ## [JavaScript](https://github.com/RezendeRammel/RezendeRammel/tree/master/JavaScript)
 
 - 2º Ano (3º Bimestre) - <strong> Leandro Pisco </strong>
+- 3º Ano - <strong> Wagner Santos </strong>
 
 ---
 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <p id="1"></p>
+  <p id="2"></p>
+  <p id="3"></p>
+  <p id="4"></p>
+  <script>
+    const operation = (n1, n2) => ({
+      "+": n1 + n2,
+      "*": n1 * n2,
+      "/": n1 / n2,
+      "%": n1 % n2,
+    })
+
+    const createString = (op, n1, n2) => `${n1} ${op} ${n2} = ${operation(n1, n2)[op].toFixed(2)}`
+    const select = (id) => document.getElementById(id);
+
+    (function ask() {
+      number1 = parseFloat(window.prompt("Numero 1: "))
+      number2 = parseFloat(window.prompt("Numero 2: "))
+
+      select("1").innerHTML = createString("+", number1, number2)
+      select("2").innerHTML = createString("*", number1, number2)
+      select("3").innerHTML = createString("/", number1, number2)
+      select("4").innerHTML = createString("%", number1, number2)
+    })()
+
+  </script>
+</body>
+</html>
+
+
+
